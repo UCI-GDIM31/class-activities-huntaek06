@@ -5,7 +5,10 @@ Hello world!
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
-### hi
+
+1. r, g, and b variables are float because they are not integers but numbers with deicmal points.
+2. _bounce variable is an int because the unit we count is integers without decial points.
+3. There wasn't a semincolon at the end of the line.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
