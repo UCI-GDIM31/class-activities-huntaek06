@@ -20,6 +20,12 @@ Line 22: translatioin is local variable, and the type is float. Input is a class
 Line 25: transform is a component.Translate(0, 0, translation) is calling a method on that component. The method parameters are x = 0, y = 0, z = translation.
 1. I added Rigidbodies to cat and soccerball since they need collision physically, and I check isTrigger on goal because the soccer ball needs to pass through it without collision.
 2. I added Rigidbody to goal at first because I thought if the soccerball hits the goal, I thought the ball should collide with the goal but it turned out that I just need isTrigger on the goal.
+
+### w5
+How do I move an object forward regardless of its world orientation?
+Use its local forward vector times speed and Time.deltaTime.
+
+Me and my pair planned to create the DeerW5 by setting it as a Transform variable which is a target. We made a class by adding MonoBehaviour to attach as a component. Then, we created private NavMeshAgent and we initiate it with getComponent method. Lastly we set destination using the target object.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
