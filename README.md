@@ -26,6 +26,15 @@ How do I move an object forward regardless of its world orientation?
 Use its local forward vector times speed and Time.deltaTime.
 
 Me and my pair planned to create the DeerW5 by setting it as a Transform variable which is a target. We made a class by adding MonoBehaviour to attach as a component. Then, we created private NavMeshAgent and we initiate it with getComponent method. Lastly we set destination using the target object.
+
+### w6
+I did unity engine and this is the link to google doc: [link](https://docs.google.com/document/d/1_oQY0junK3b37PITxN8uItEEPKJGHvci47NArvtUxiQ/edit?usp=sharing)
+
+I need two member variables: public float speed and private bool isChasing.
+I need methods like public void StopChasing() and public void StartChasing(); Update().
+It flips isChasing.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
