@@ -34,6 +34,10 @@ I need two member variables: public float speed and private bool isChasing.
 I need methods like public void StopChasing() and public void StartChasing(); Update().
 It flips isChasing.
 
+### w7
+I helped the animation part with my table member and this is the [link](https://docs.google.com/document/d/1RbOJV14KBQmt5sQBiYGuODTakWBMyocLs59OTx8vLRQ/edit?tab=t.0)
+In step two, the code was wrong because it's supposed to be transform.forward not Vector3.forward. transform.forward is z axis based movement depending on player's position (rotation) but vector3.forward is z axis based movement depending on the world's position.
+
 
 ## Open-Source Assets
 ### W1
